@@ -1,0 +1,66 @@
+/* CSS files add styling rules to your content */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+section {
+    height: 100vh;
+    width: 100vw;
+}
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.page-header,
+.page-footer {
+    background-color: rgb(75, 70, 74);
+    color: #fff;
+    padding: 20px;
+}
+.page-body {
+    padding: 20px;
+}
+.preview {
+    height: 400px;
+    overflow: auto;
+}
+
+
+form img {
+  width: 166px;
+  height: 250px;
+}
+
+fieldset > div {
+  display: inline-block;
+}
+
+img:hover {
+  border: 3px solid grey;
+}
+
+
+h1 {
+    color: yellow;
+    background-color: teal;
+}
